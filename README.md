@@ -1,5 +1,43 @@
 # Android-Studio-Info
 
+
+
+#### Visual Studio Code Shortcuts Keys
+- To preview the `Readme.md` file in VSCode -> `Ctrl + Shift + V`
+- To format the json document in VSCode -> `Ctrl + K` then `Ctrl + F`
+- To format any document, install and then set the **Prettier** extension as the default formatter using `Ctrl + Shift + P`,  
+  then format file -> `Shift + Alt + F`
+
+#### Android Studio Shortcuts Keys
+- **Reformat** the code in Android Studio -> `Ctrl + Alt + L`
+- **Expand** all code blocks in Android Studio -> `Ctrl + Shift + +`
+- **Collapse** all code blocks in Android Studio -> `Ctrl + Shift + -`
+
+#### Wireless Debugging Procedure :
+
+- Connect Mobile to 'ICPS 3FL 5GHz' wifi
+- Make sure adb is installed on the desktop using the 'adb version' command
+- Developer Options -> Wireless Debugging -> Enable -> Pair device with pairing code -> Note the IP, Port, and Pairing Code (changes every time)
+- type command in desktop in *sudo* : adb pair <IP>:<Port>
+- It asks for a pairing code. Enter pairing code
+- If success, then type: adb connect <IP>:<Port>
+- adb devices, you can see the connected devices
+- Android Studio automatically detects it.
+
+Arial Black
+Dialog
+Fira Code
+Fira Code Medium
+HP Simplified
+Inter
+Inter Semi Bold
+Microsoft Sans Serif
+Nirmal UI
+SansSerif
+Verdana
+
+
+
 ### Duplicating a project
 ```
 cd /home/icps1101/Downloads/projects
